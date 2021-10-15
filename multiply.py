@@ -13,11 +13,3 @@ def multiply_list(numberlist):
          
     return result
 
-#input your willing number in the list here
-
-yourList = []
-yourList = list(map(int,input("Input: ").split()))
-print("Input: ",yourList)
-
-
-print("Output: ",multiply_list(yourList))
