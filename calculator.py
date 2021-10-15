@@ -1,4 +1,3 @@
-
 def calculator(number1, number2, operator):
 
     if operator == '*':
@@ -18,8 +17,6 @@ def calculator(number1, number2, operator):
     elif operator == '-':
         return number1 - number2
 
-    
-    
 def parse_input():
     user_input = input ("Enter equation: ")
     user_input = user_input.strip().split(" ")
