@@ -1,9 +1,8 @@
-"Three parameter would be 'number1, number2, operator"
 
 def calculator(number1, number2, operator):
 
-"There are six operations that should be included such as addition (+), subtraction (-), multiplication (*),
-	division (/), integer division (//) and power (**)"
+#####There are six operations that should be included such as addition (+), subtraction (-), multiplication (*),
+########	division (/), integer division (//) and power (**)"
 
     if operator == '*':
         return number1 * number2
