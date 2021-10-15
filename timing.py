@@ -8,8 +8,6 @@ def calculate_time(func):
 
     return timer
 
-
-
 @calculate_time
 def sleep():
     time.sleep(2)
